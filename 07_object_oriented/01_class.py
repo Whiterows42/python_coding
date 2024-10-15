@@ -38,11 +38,14 @@ tesala_car = ElectricCar("tesala" ,"model s" , "80kwh")
 # print(tesala_car.battraysize)
 # print(tesala_car.full_name())
 
-my_car = Car("Toyota", "Corllo")
-print(my_car.fuel_type())
-print(tesala_car.fuel_type())
+# my_car = Car("Toyota", "Corllo")
+# print(my_car.fuel_type())
+# print(tesala_car.fuel_type())
 
-print(Car.total_car)
-# print(my_car.full_name())
+# print(Car.total_car)
+# # print(my_car.full_name())
 
-print(Car.genrel_description())
+# print(Car.genrel_description())
+
+print(isinstance(tesala_car , Car))
+print(isinstance(tesala_car,ElectricCar))

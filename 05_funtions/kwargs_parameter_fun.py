@@ -10,4 +10,7 @@ print_kwargs(name="spiderman" , power="flying")
 print_kwargs(name="spiderman" , power="flying" , enamy = "Dr jackal")
 
 
+myname = "ajit"
+print(myname.split(", "))
+
 
